@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>no.ssb.lds</groupId>
+    <artifactId>linked-data-store-project</artifactId>
+    <version>0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>linked-data-store-persistence-provider-api</module>
+        <module>linked-data-store-persistence-provider-memory</module>
+        <module>linked-data-store-persistence-provider-neo4j</module>
+        <module>linked-data-store-persistence-provider-postgres</module>
+        <module>linked-data-store-core</module>
+        <module>linked-data-store-docker-memory</module>
+        <module>linked-data-store-docker-neo4j</module>
+        <module>linked-data-store-docker-postgres</module>
+    </modules>
+
+</project>
+
+
