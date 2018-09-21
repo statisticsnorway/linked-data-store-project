@@ -16,6 +16,6 @@ This is a project that makes it easy to checkout and pull changes form all LDS r
 
 **Run with Neo4j**
 
-On Winodows and Mac you need to configure your *hosts-file*: `c:\windows\system32\etc\hosts` or `/etc/hosts` with `127.0.0.1    db-neo4j`.
+On Winodows and Mac you need to configure your *hosts-file*: `c:\windows\system32\drivers\etc\hosts` or `/etc/hosts` with `127.0.0.1    db-neo4j`.
 
 `./docker/run-neo4j.sh`
