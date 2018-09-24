@@ -23,3 +23,7 @@ git -C linked-data-store-docker-neo4j/ pull --rebase
 
 echo "git -C linked-data-store-docker-postgres/ pull --rebase"
 git -C linked-data-store-docker-postgres/ pull --rebase
+
+echo "git -C linked-data-store-documentation/ pull --rebase"
+git -C linked-data-store-documentation/ pull --rebase
+

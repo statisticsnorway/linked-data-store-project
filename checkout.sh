@@ -24,3 +24,6 @@ git clone git@github.com:statisticsnorway/linked-data-store-docker-neo4j.git
 echo "git clone git@github.com:statisticsnorway/linked-data-store-docker-postgres.git"
 git clone git@github.com:statisticsnorway/linked-data-store-docker-postgres.git
 
+echo "git clone git@github.com:statisticsnorway/linked-data-store-documentation.git"
+git clone git@github.com:statisticsnorway/linked-data-store-documentation.git
+
