@@ -27,3 +27,6 @@ git -C linked-data-store-docker-postgres/ pull --rebase
 echo "git -C linked-data-store-documentation/ pull --rebase"
 git -C linked-data-store-documentation/ pull --rebase
 
+echo "git -C linked-data-store-loadtest/ pull --rebase"
+git -C linked-data-store-loadtest/ pull --rebase
+

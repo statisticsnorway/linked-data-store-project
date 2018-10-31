@@ -27,3 +27,6 @@ git clone git@github.com:statisticsnorway/linked-data-store-docker-postgres.git
 echo "git clone git@github.com:statisticsnorway/linked-data-store-documentation.git"
 git clone git@github.com:statisticsnorway/linked-data-store-documentation.git
 
+echo "git clone git@github.com:statisticsnorway/linked-data-store-loadtest.git"
+git clone git@github.com:statisticsnorway/linked-data-store-loadtest.git
+
