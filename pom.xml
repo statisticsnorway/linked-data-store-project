@@ -54,6 +54,7 @@
         <module>linked-data-store-persistence-provider-memory</module>
         <module>linked-data-store-persistence-provider-neo4j</module>
         <module>linked-data-store-persistence-provider-postgres</module>
+        <module>linked-data-store-persistence-provider-foundationdb</module>
         <module>linked-data-store-core</module>
         <module>linked-data-store-docker-memory</module>
         <module>linked-data-store-docker-neo4j</module>
