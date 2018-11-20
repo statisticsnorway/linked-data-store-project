@@ -33,3 +33,6 @@ git -C linked-data-store-documentation/ pull --rebase
 echo "git -C linked-data-store-loadtest/ pull --rebase"
 git -C linked-data-store-loadtest/ pull --rebase
 
+echo "git -C linked-data-store-linked-data-store-docker-build-base/ pull --rebase"
+git -C linked-data-store-linked-data-store-docker-build-base/ pull --rebase
+

@@ -33,3 +33,6 @@ git clone git@github.com:statisticsnorway/linked-data-store-documentation.git
 echo "git clone git@github.com:statisticsnorway/linked-data-store-loadtest.git"
 git clone git@github.com:statisticsnorway/linked-data-store-loadtest.git
 
+echo "git clone git@github.com:statisticsnorway/linked-data-store-docker-build-base.git"
+git clone git@github.com:statisticsnorway/linked-data-store-docker-build-base.git
+
