@@ -60,7 +60,7 @@
         <module>linked-data-store-docker-memory</module>
         <module>linked-data-store-docker-neo4j</module>
         <module>linked-data-store-docker-postgres</module>
-        <module>linked-data-store-docker-foundationdb</module>
+        <!--<module>linked-data-store-docker-foundationdb</module>-->
         <module>linked-data-store-loadtest</module>
     </modules>
 
