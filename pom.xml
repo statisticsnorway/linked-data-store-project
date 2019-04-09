@@ -51,6 +51,8 @@
 
     <modules>
         <module>linked-data-store-persistence-provider-api</module>
+        <module>linked-data-store-search-provider-api</module>
+        <module>linked-data-store-search-provider-solr</module>
         <module>linked-data-store-persistence-provider-test</module>
         <module>linked-data-store-persistence-provider-memory</module>
         <module>linked-data-store-persistence-provider-neo4j</module>

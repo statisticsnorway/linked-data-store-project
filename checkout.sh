@@ -3,6 +3,12 @@
 echo "git clone git@github.com:statisticsnorway/linked-data-store-persistence-provider-api.git"
 git clone git@github.com:statisticsnorway/linked-data-store-persistence-provider-api.git
 
+echo "git clone git@github.com:statisticsnorway/linked-data-store-search-provider-api.git"
+git clone git@github.com:statisticsnorway/linked-data-store-search-provider-api.git
+
+echo "git clone git@github.com:statisticsnorway/linked-data-store-search-provider-solr.git"
+git clone git@github.com:statisticsnorway/linked-data-store-search-provider-solr.git
+
 echo "git clone git@github.com:statisticsnorway/linked-data-store-persistence-provider-memory.git"
 git clone git@github.com:statisticsnorway/linked-data-store-persistence-provider-memory.git
 

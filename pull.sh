@@ -3,6 +3,12 @@
 echo "git -C linked-data-store-persistence-provider-api/ pull --rebase"
 git -C linked-data-store-persistence-provider-api/ pull --rebase
 
+echo "git -C linked-data-store-search-provider-api/ pull --rebase"
+git -C linked-data-store-persistence-provider-api/ pull --rebase
+
+echo "git -C linked-data-store-search-provider-solr/ pull --rebase"
+git -C linked-data-store-search-provider-solr/ pull --rebase
+
 echo "git -C linked-data-store-persistence-provider-memory/ pull --rebase"
 git -C linked-data-store-persistence-provider-memory/ pull --rebase
 
