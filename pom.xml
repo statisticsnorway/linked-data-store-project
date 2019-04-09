@@ -64,8 +64,6 @@
         <module>linked-data-store-docker-postgres</module>
         <module>linked-data-store-docker-foundationdb</module>
         <module>linked-data-store-loadtest</module>
-        <module>linked-data-store-search-provider-api</module>
-        <module>linked-data-store-search-provider-solr</module>
     </modules>
 
     <build>
