@@ -48,3 +48,9 @@ git -C linked-data-store-docker-build-base/ pull --rebase
 echo "git -C linked-data-store-persistence-provider-test/ pull --rebase"
 git -C linked-data-store-persistence-provider-test/ pull --rebase
 
+echo "git -C linked-data-store-search-provider-api/ pull --rebase"
+git -C linked-data-store-search-provider-api/ pull --rebase
+
+echo "git -C linked-data-store-search-provider-solr/ pull --rebase"
+git -C linked-data-store-search-provider-solr/ pull --rebase
+
