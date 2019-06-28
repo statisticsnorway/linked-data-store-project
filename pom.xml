@@ -64,6 +64,8 @@
         <module>linked-data-store-docker-postgres</module>
         <module>linked-data-store-docker-foundationdb</module>
         <module>linked-data-store-loadtest</module>
+        <module>txlog-api</module>
+        <module>txlog-pulsar</module>
     </modules>
 
     <build>
