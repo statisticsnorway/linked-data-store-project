@@ -53,3 +53,6 @@ git clone git@github.com:statisticsnorway/linked-data-store-search-provider-api.
 
 echo "git clone git@github.com:statisticsnorway/linked-data-store-search-provider-solr.git"
 git clone git@github.com:statisticsnorway/linked-data-store-search-provider-solr.git
+
+echo "git clone git@github.com:statisticsnorway/lds-cluster-test.git"
+git clone git@github.com:statisticsnorway/lds-cluster-test.git

@@ -48,3 +48,5 @@ git -C linked-data-store-docker-build-base/ pull --rebase
 echo "git -C linked-data-store-persistence-provider-test/ pull --rebase"
 git -C linked-data-store-persistence-provider-test/ pull --rebase
 
+echo "git -C lds-cluster-test/ pull --rebase"
+git -C lds-cluster-test/ pull --rebase
