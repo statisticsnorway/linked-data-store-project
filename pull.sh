@@ -51,8 +51,3 @@ git -C linked-data-store-persistence-provider-test/ pull --rebase
 echo "git -C lds-cluster-test/ pull --rebase"
 git -C lds-cluster-test/ pull --rebase
 
-echo "git -C txlog-api/ pull --rebase"
-git -C txlog-api/ pull --rebase
-
-echo "git -C txlog-pulsar/ pull --rebase"
-git -C txlog-pulsar/ pull --rebase
