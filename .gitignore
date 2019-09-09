@@ -6,3 +6,4 @@
 /txlog-api/
 /txlog-pulsar/
 /.DS_Store
+/target/
