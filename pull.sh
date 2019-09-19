@@ -51,3 +51,5 @@ git -C linked-data-store-persistence-provider-test/ pull --rebase
 echo "git -C lds-cluster-test/ pull --rebase"
 git -C lds-cluster-test/ pull --rebase
 
+echo "git clone git@github.com:statisticsnorway/linked-data-store-docker.git"
+git -C linked-data-store-docker pull --rebase
