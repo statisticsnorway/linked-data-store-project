@@ -21,7 +21,8 @@ git -C linked-data-store-persistence-provider-postgres/ pull --rebase
 echo "git -C linked-data-store-core/ pull --rebase"
 git -C linked-data-store-core/ pull --rebase
 
-
+echo "git -C linked-data-store-docker/ pull --rebase"
+git -C linked-data-store-docker/ pull --rebase
 
 echo "git -C linked-data-store-persistence-provider-foundationdb/ pull --rebase"
 git -C linked-data-store-persistence-provider-foundationdb/ pull --rebase

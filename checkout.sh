@@ -21,6 +21,9 @@ git clone git@github.com:statisticsnorway/linked-data-store-persistence-provider
 echo "git clone git@github.com:statisticsnorway/linked-data-store-core.git"
 git clone git@github.com:statisticsnorway/linked-data-store-core.git
 
+echo "git clone git@github.com:statisticsnorway/linked-data-store-docker.git"
+git clone git@github.com:statisticsnorway/linked-data-store-docker.git
+
 echo "git clone git@github.com:statisticsnorway/linked-data-store-persistence-provider-foundationdb.git"
 git clone git@github.com:statisticsnorway/linked-data-store-persistence-provider-foundationdb.git
 
