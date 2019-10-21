@@ -21,10 +21,6 @@ steps:
     environment:
       MAVEN_HOME: /drone/src/.m2
       M2_HOME: /drone/src/.m2
-    depends_on:
-      - sonarqube
-      - codacy
-      - codecov
 
   - name: slack
     image: plugins/slack
@@ -34,8 +30,6 @@ steps:
       channel: bip-ci-test
     when:
       status: [ success, failure ]
-    depends_on:
-      - publish-maven
 
 ---
 kind: secret
