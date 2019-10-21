@@ -13,7 +13,7 @@ steps:
   - name: publish-maven
     image: maven:3-jdk-11
     commands:
-      - mvn clean package deploy -P ssb-bip, -DskipTests=true -Djdk.tls.client.protocols="TLSv1.2" --batch-mode --global-settings settings.xml
+      - mvn clean package deploy -P ssb-bip, -DskipTests=true -Djdk.tls.client.protocols="TLSv1.2" --non-recursive --batch-mode --global-settings settings.xml
     environment:
       MAVEN_HOME: /drone/src/.m2
       M2_HOME: /drone/src/.m2
