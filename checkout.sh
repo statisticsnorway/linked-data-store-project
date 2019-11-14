@@ -47,6 +47,3 @@ git clone git@github.com:statisticsnorway/linked-data-store-search-provider-solr
 
 echo "git clone git@github.com:statisticsnorway/lds-cluster-test.git"
 git clone git@github.com:statisticsnorway/lds-cluster-test.git
-
-echo "git clone git@github.com:statisticsnorway/linked-data-store-docker.git"
-git clone git@github.com:statisticsnorway/linked-data-store-docker.git
