@@ -24,8 +24,8 @@
         <slf4j.version>1.8.0-beta2</slf4j.version>
         <logback.version>1.3.0-alpha4</logback.version>
         <assertj.version>3.11.1</assertj.version>
-        <postgresql.version>42.2.2</postgresql.version>
-        <HikariCP.version>3.2.0</HikariCP.version>
+        <postgresql.version>42.2.12</postgresql.version>
+        <HikariCP.version>3.4.5</HikariCP.version>
         <solr.version>7.7.1</solr.version>
     </properties>
 
@@ -186,8 +186,7 @@
             <dependency>
                 <groupId>no.ssb.saga</groupId>
                 <artifactId>sagalog-postgres</artifactId>
-                <version>0.6</version>
-                <scope>test</scope>
+                <version>0.7</version>
             </dependency>
             <dependency>
                 <groupId>no.ssb.saga</groupId>
@@ -209,7 +208,7 @@
             <dependency>
                 <groupId>no.ssb.rawdata</groupId>
                 <artifactId>rawdata-client-provider-postgres</artifactId>
-                <version>0.8</version>
+                <version>0.9</version>
             </dependency>
 
             <dependency>
