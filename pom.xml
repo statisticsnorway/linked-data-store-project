@@ -385,11 +385,6 @@
                 <version>${postgresql.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.neo4j.driver</groupId>
-                <artifactId>neo4j-java-driver</artifactId>
-                <version>1.6.1</version>
-            </dependency>
-            <dependency>
                 <groupId>org.foundationdb</groupId>
                 <artifactId>fdb-java</artifactId>
                 <version>5.2.5</version>
