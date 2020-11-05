@@ -92,21 +92,23 @@
                 </snapshotRepository>
             </distributionManagement>
         </profile>
+        <profile>
+            <id>reactor</id>
+            <modules>
+                <module>linked-data-store-persistence-provider-api</module>
+                <module>linked-data-store-search-provider-api</module>
+                <module>linked-data-store-search-provider-solr</module>
+                <module>linked-data-store-persistence-provider-test</module>
+                <module>linked-data-store-persistence-provider-memory</module>
+                <module>linked-data-store-persistence-provider-neo4j</module>
+                <module>linked-data-store-persistence-provider-postgres</module>
+                <module>linked-data-store-persistence-provider-foundationdb</module>
+                <module>linked-data-store-core</module>
+                <module>linked-data-store-docker</module>
+                <module>linked-data-store-loadtest</module>
+            </modules>
+        </profile>
     </profiles>
-
-    <modules>
-        <module>linked-data-store-persistence-provider-api</module>
-        <module>linked-data-store-search-provider-api</module>
-        <module>linked-data-store-search-provider-solr</module>
-        <module>linked-data-store-persistence-provider-test</module>
-        <module>linked-data-store-persistence-provider-memory</module>
-        <module>linked-data-store-persistence-provider-neo4j</module>
-        <module>linked-data-store-persistence-provider-postgres</module>
-        <module>linked-data-store-persistence-provider-foundationdb</module>
-        <module>linked-data-store-core</module>
-        <module>linked-data-store-docker</module>
-        <module>linked-data-store-loadtest</module>
-    </modules>
 
     <dependencyManagement>
         <dependencies>
